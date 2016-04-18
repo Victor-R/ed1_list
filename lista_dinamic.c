@@ -9,6 +9,7 @@ main(){
 		system("cls");
 		menu();
 		imprimir(e);
+		printf("\nComando: ");
 		scanf("%d",&cmd);
 		if(cmd==1){
 			inserir(&e);
@@ -26,8 +27,10 @@ main(){
 			scanf("%d",&n);
 			result = calculo(e,n); //arrumar recursividade
 			printf("X = %d\n",result);
+			system("pause");
 		}else if(cmd==5){
 			printf("O.E.M.E.M : O espetacular mundo das expressoes matematicas\n");
+			system("pause");
 		}else if(cmd==6){
 			printf("Saindo...\n");
 			system("pause");

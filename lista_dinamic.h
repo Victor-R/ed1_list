@@ -122,14 +122,12 @@ void remove_n(expr **e,int n){
 						p->next=NULL;
 
 					}else{
-						p->next = aux->next;	
+						p->next = aux->next;
 					}					
 					free(aux);
-
 				}else{					
 					p=p->next;					
-				}
-				
+				}				
 			}
 		}						
 	}
